@@ -81,5 +81,5 @@ Similarly for **b** when **b = 1**:
 ## Adjustments
 **w := w - α * (∂MSE/∂w)** & **b := b - α * (∂MSE/∂b)**  
 
-**w := 0.5 - 0.01(∂MSE / ∂w) = 0.5 - 0.01(-1) = -0.49**.  
-**b := 1 - 0.01(∂MSE / ∂b) = 0.5 - 0.01(-1) = -0.99**.  
+Gradient of the loss function with respect to **w** -> **w := 0.5 - 0.01(∂MSE / ∂w) = 0.5 - 0.01(-1) = -0.49**.  
+Gradient of the loss function with respect to **b** -> **b := 1 - 0.01(∂MSE / ∂b) = 0.5 - 0.01(-1) = -0.99**.  
