@@ -73,13 +73,13 @@ Expand sigma:
 
 **1/3 [2(-1/2) + 2(-1/2) + 2(-1/2)]** -> **1/3 2[(-1/2) + (-1/2) + (-1/2)]** -> **1/3(-3) = -1**.  
 
-**∂MSE / ∂w = ∂MSE / ∂ŷ * x = -1(1) = -1.**
+**∂MSE / ∂w = ∂MSE / ∂ŷ * x = -1(1)(-1) = 1.**
 
 Similarly for **b** when **b = 1**:  
-**∂MSE / ∂b = ∂MSE / ∂ŷ * x = -1(1) = -1.**  
+**∂MSE / ∂b = ∂MSE / ∂ŷ * x = -1(1)(-1) = 1.**  
 
 ## Adjustments
 **w := w - α * (∂MSE/∂w)** & **b := b - α * (∂MSE/∂b)**  
 
-Gradient of the loss function with respect to **w** -> **w := 0.5 - 0.01(∂MSE / ∂w) = 0.5 - 0.01(-1) = -0.49**.  
-Gradient of the loss function with respect to **b** -> **b := 1 - 0.01(∂MSE / ∂b) = 0.5 - 0.01(-1) = -0.99**.  
+Gradient of the loss function with respect to **w** -> **w := 0.5 - 0.01(∂MSE / ∂w) = 0.5 - 0.01(-1) = 0.49**.  
+Gradient of the loss function with respect to **b** -> **b := 1 - 0.01(∂MSE / ∂b) = 0.5 - 0.01(-1) = 0.99**.  
